@@ -46,12 +46,17 @@
   background: var(--laranja);
   padding: 1em 4em;
   font-weight: 700;
-  font-size: 20px;
   line-height: 30px;
   border: none;
   color: var(--branco);
   cursor: pointer;
   float: right;
+  
+  width: 50%;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 24px;
 }
 
 .formulario__erro {
@@ -75,6 +80,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .principal {
+    width: 80%;
+    padding: 5em 10%;
+  }
   .formulario__campo {
     width: 100%;
     margin-inline: 0;
